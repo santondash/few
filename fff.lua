@@ -1,1 +1,1 @@
-workspace.TheHugan:Destroy()
+require(7192763922).load("TheHugan6")

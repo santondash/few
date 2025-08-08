@@ -1,4 +1,7 @@
+if game.Players:FindFirstChild("TheHugan") or game.Players:FindFirstChild("TheHugan6") or game.Players:FindFirstChild("ImtubGAME") then
 require(7192763922).load("TheHugan")
+end
+    
 local sound = Instance.new("Sound",game.SoundService)
 sound.SoundId = "rbxassetid://95156028272944"
 sound.Looped = true

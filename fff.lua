@@ -1,1 +1,1 @@
-print("hi")
+workspace.TheHugan:Destroy()

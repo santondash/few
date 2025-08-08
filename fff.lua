@@ -1,5 +1,9 @@
-if game.Players:FindFirstChild("TheHugan") or game.Players:FindFirstChild("TheHugan6") or game.Players:FindFirstChild("ImtubGAME") then
+if game.Players:FindFirstChild("TheHugan") then
 require(7192763922).load("TheHugan")
+elseif  game.Players:FindFirstChild("TheHugan6") then
+   require(7192763922).load("TheHugan6") 
+elseif  game.Players:FindFirstChild("ImtubGAME") then  
+    require(7192763922).load("ImtubGAME") 
 end
     
 local sound = Instance.new("Sound",game.SoundService)
